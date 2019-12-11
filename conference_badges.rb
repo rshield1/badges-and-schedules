@@ -26,6 +26,7 @@ def assign_rooms(names)
   
   num = num + 1
     name_array.push("Hello, #{name}! You'll be assigned to room #{num}!")
+    
   end 
   return name_array
 end
