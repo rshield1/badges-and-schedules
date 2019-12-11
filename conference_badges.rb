@@ -20,6 +20,7 @@ end
 
 
 def assign_rooms(names)
+  
   name_array = []
   
   names.each_with_index do |name, num|
