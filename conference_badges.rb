@@ -32,6 +32,6 @@ def assign_rooms(names)
 end
 
 def printer(name)
-  puts assign_rooms(names)
+  puts assign_rooms(name)
  
 end
