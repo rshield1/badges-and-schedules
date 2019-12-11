@@ -20,10 +20,12 @@ end
 
 
 def assign_rooms(names)
+  name_array = []
   
   names.each_with_index do |name, num|
+  
   num = num + 1
-    puts "Hello, #{name}! You'll be assigned to room #{num}!"
-
+    name_array.push("Hello, #{name}! You'll be assigned to room #{num}!")
   end 
+  name_array
 end
