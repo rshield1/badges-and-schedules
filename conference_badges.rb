@@ -5,11 +5,10 @@ end
   
 def batch_badge_creator(names)
 
-  names.each do |name|
-  
-    return badge_maker(name)
+  names.map do |name|
+     badge_maker(name)
   end
-  
+  badge_maker
 end
 
 
