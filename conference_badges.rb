@@ -5,12 +5,13 @@ end
   
 def batch_badge_creator(names)
 
-  names.map do |name|
-     badge_maker(name)
-  end
-  badge_maker
-end
+  new_badges = []
 
+  names.each do |name|
+
+  new_badges.push(badge_maker(name))
+end 
+end
 
 def assign_rooms(names)
   
