@@ -38,5 +38,4 @@ while counter < names.length
   puts assign_rooms(names)[counter]
   counter = counter + 1
 end
-puts assign_rooms(names)
 end
