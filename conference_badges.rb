@@ -32,6 +32,8 @@ def assign_rooms(names)
 end
 
 def printer(names)
+  counter = 1
+  while counter < names.length
     puts batch_badge_creator(names)
-  
+  end
 end
