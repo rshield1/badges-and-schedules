@@ -25,6 +25,6 @@ def assign_rooms(names)
     num =+ 1
     puts "Hello, #{name}! You'll be assigned to room #{num}!"
   end 
-
+names
 
 end
