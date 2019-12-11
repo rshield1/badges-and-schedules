@@ -21,7 +21,7 @@ end
 
 def assign_rooms(names)
   
-  name.each_with_index.map |name, num|
+  name.each_with_index.map |name| |num|
     puts "Hello, #{name}! You'll be assigned to room #{num}!"
   end 
 end
