@@ -34,6 +34,7 @@ end
 def printer(names)
   counter = 1
   while counter < names.length
-    puts batch_badge_creator(names)
+    puts batch_badge_creator(names)[counter]
+    counter = couter + 1
   end
 end
